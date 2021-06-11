@@ -1,6 +1,16 @@
 # python-mongodb
 Contains details on how we use pymongo to connect python with mongodb
 
+# Prerequisites
+Download and install Python on your machine (in this example: Windows). To confirm if your installation is right, type ‘python’ in your command line window. You should get:
+```bash
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+We recommend that you set up a **MongoDB Atlas free tier cluster** for this tutorial. 
+
 # Connecting Python and MongoDB Atlas
 PyMongo has a set of packages for Python MongoDB interaction.
 To install PyMongo, open command line and type:
