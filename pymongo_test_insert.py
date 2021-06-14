@@ -3,7 +3,7 @@ def get_database():
 	import pymongo
 
 	# Provide the mongodb atlas url to connect python to mongodb using pymongo
-	CONNECTION_STRING = 'mongodb+srv://<username>:<pwd>@<cluster-name>.mongodb.net/myFirstDatabase'
+	CONNECTION_STRING = 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase'
 
 	# Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
 	from pymongo import MongoClient
